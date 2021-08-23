@@ -95,7 +95,7 @@ M.plugin_status = {
 -- non plugin mappings
 M.mappings = {
    -- close current focused buffer
-   close_buffer = "<leader>x",
+   close_buffer = "<leader>w",
    copy_whole_file = "<C-a>", -- copy all contents of the current buffer
 
    -- navigation in insert mode, only if enabled in options
@@ -109,7 +109,7 @@ M.mappings = {
    },
 
    line_number_toggle = "<leader>n", -- show or hide line number
-   new_buffer = "<S-t>", -- open a new buffer
+   new_buffer = "<leader>t", -- open a new buffer
    new_tab = "<C-t>b", -- open a new vim tab
    save_file = "<C-s>", -- save file using :w
    theme_toggler = "<leader>tt", -- for theme toggler, see in ui.theme_toggler
@@ -127,7 +127,7 @@ M.mappings = {
       -- below three are for spawning terminals
       new_horizontal = "<leader>h",
       new_vertical = "<leader>v",
-      new_window = "<leader>w",
+      new_window = "<leader>x",
    },
 
    -- update nvchad from nvchad, chadness 101
