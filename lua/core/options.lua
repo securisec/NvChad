@@ -38,7 +38,7 @@ opt.splitright = true
 opt.tabstop = options.tabstop
 opt.termguicolors = true
 opt.timeoutlen = options.timeoutlen
-opt.undofile = options.permanent_undo
+-- opt.undofile = options.permanent_undo
 
 -- interval for writing swap file to disk, also used by gitsigns
 opt.updatetime = options.updatetime

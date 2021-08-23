@@ -171,7 +171,7 @@ M.mappings.plugin = {
       git_commits = "<leader>cm",
       git_status = "<leader>gt",
       help_tags = "<leader>fh",
-      live_grep = "<leader>fw",
+      live_grep = "<leader>\\",
       oldfiles = "<leader>fo",
       themes = "<leader>th",
    },
