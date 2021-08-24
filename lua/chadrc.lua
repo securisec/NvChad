@@ -52,7 +52,7 @@ M.options = {
    permanent_undo = true,
    shiftwidth = 2,
    smartindent = true,
-   tabstop = 8, -- Number of spaces that a <Tab> in the file counts for
+   tabstop = 4, -- Number of spaces that a <Tab> in the file counts for
    timeoutlen = 1400,
    relativenumber = false,
    ruler = false,
@@ -163,7 +163,7 @@ M.mappings.plugin = {
       toggle = "<C-n>", -- file manager
    },
    neoformat = {
-      format = "<leader>fm",
+      format = "<leader>f",
    },
    telescope = {
       buffers = "<leader>fb",
