@@ -251,7 +251,7 @@ return packer.startup(function()
    -- file managing , picker etc
    use {
       "kyazdani42/nvim-tree.lua",
-      cmd = "NvimTreeToggle",
+      cmd = {"NvimTreeToggle", "NvimTreeFocus"},
       config = function()
          require "plugins.configs.nvimtree"
       end,
@@ -318,6 +318,11 @@ return packer.startup(function()
       disable = not plugin_status.vim_fugitive,
       cmd = {
          "Git",
+         "Gdiff",
+         "Gdiffsplit",
+         "Gvdiffsplit",
+         "Gwrite",
+         "Gw",
       },
       setup = function()
          require("core.mappings").vim_fugitive()
