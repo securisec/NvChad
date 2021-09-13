@@ -21,6 +21,7 @@ compe.setup {
       luasnip = { kind = "﬌", true },
       nvim_lsp = true,
       nvim_lua = true,
+      path = true
    },
    throttle_time = 80,
 }

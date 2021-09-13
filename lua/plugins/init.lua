@@ -8,6 +8,10 @@ local use = packer.use
 
 return packer.startup(function()
    local plugin_status = require("core.utils").load_config().plugin_status
+   
+   -- use {
+   --   "/Users/securisec/dev/mixto/mixto-vim/"
+   -- }
 
    -- this is arranged on the basis of when a plugin starts
 
