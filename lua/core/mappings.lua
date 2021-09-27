@@ -25,7 +25,7 @@ local opt, M = {}, {}
 M.misc = function()
    local function non_config_mappings()
       -- dont copy any deleted text , this is disabled by default so uncomment the below mappings if you want them
-      -- map("n", "dd", [=[ "_dd ]=], opt)
+      map("n", "dd", [=[ "_dd ]=], opt)
       -- map("v", "dd", [=[ "_dd ]=], opt)
       -- map("v", "x", [=[ "_x ]=], opt)
       -- todo: this should be configurable via chadrc
